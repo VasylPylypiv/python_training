@@ -1,0 +1,6 @@
+first_name = input('Enter your first name? ')
+last_name = input('\nEnter your last name? ')
+dob_month = input('\nEnter your date of birth:\nMonth? ')
+dob_day = input('\nDay? ')
+dob_year = input('\nYear? ')
+print("{0} {1} was born on {2} {3}, {4}.".format(first_name, last_name, dob_month, dob_day, dob_year))
